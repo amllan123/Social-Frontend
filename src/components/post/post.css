@@ -1,0 +1,114 @@
+.post{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 2px rgba(166,161,161,0.74);
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(166,161,161,0.74);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(166,161,161,0.74);
+     margin: 30px 0px;
+}
+
+.postWrapper{
+    padding: 10px;
+}
+
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopLeft{
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+
+
+}
+.postUsername{
+font-family: "Nunito",sans-serif;
+font-weight: bolder;
+font-style: 15px;
+
+}
+.postDate{
+    font-size: small;
+
+}
+.postProfileImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* center work start */
+
+.postCenter{
+ margin-top: 20px 0;
+
+
+}
+
+
+
+
+.postImg{
+    width: 100%;
+    margin-top: 20px;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+
+
+.like{
+    color: rgb(255, 0, 144);
+    cursor: pointer;
+}
+
+
+.postBottom{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.postLikeCounter{
+    font-style: 14px;
+}
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+}
+
+.postText{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.postTopRight{
+    display: flex;
+}
+.postTopRightBurger{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+}
+.delBtn{
+    padding: 5px;
+    background-color: rgb(228, 59, 59);
+    border: none;
+    outline: none;
+    color: aliceblue;
+    border-radius: 2px;
+}

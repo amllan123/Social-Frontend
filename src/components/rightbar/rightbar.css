@@ -1,0 +1,64 @@
+.rightbar{
+    flex: 3;
+
+}
+
+.rightbarWrapper{
+  padding: 20px 20px 0 0 ;
+
+
+}
+
+.birthdayContainer{
+  display: flex;
+  align-items: center;
+
+}
+.birthdayImg{
+ height: 30px;
+ width: 30px;
+ margin-right: 10px;
+
+}
+
+.birthdayText{
+    font-weight: 200;
+}
+.rightbarad{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.rightbarFriendList{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+
+}
+
+.rightbarFriend{
+ display: flex;
+ align-items: center;
+ padding: 10px;
+
+}
+
+
+
+.rightbarFriendImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid limegreen;
+}
+
+.friendUsername{
+    font-family: "Nunito",sans-serif;
+    font-weight: 400;
+    margin-left: 5px;
+}
